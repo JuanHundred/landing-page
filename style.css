@@ -111,3 +111,40 @@ button{
     border-radius: 8px;
     border: none;
 }
+
+.under-header{
+    text-align: center;
+    height: 60vh;
+}
+
+.under-header > h2{
+    padding: 60px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.picture-container{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.pc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 200px;
+    gap: 20px
+}
+
+.pc > img {
+    width: 200px;
+    height: 200px;
+    border: #3882F6 solid 3px;
+    border-radius: 10px;
+}
+
+.pc > p {
+    font-size: 18px;
+}
+
