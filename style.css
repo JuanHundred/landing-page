@@ -97,6 +97,7 @@ li a {
 .header-button{
     align-self: flex-start;
     background: #3882F6;
+    border-color: #3882F6;
 }
 
 img{
@@ -109,7 +110,7 @@ button{
     font-weight: 500;
     padding: 8px 35px;
     border-radius: 8px;
-    border: none;
+    border-style: solid;
 }
 
 .under-header{
@@ -176,6 +177,38 @@ button{
     padding-right: 50px;
     font-size: 26px;
     font-weight: bold;
+}
+
+.last-section{
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-container{
+    width: 60vw;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 20px 120px;
+    border-radius: 10px;
+}
+
+.blue-button-div {
+    display: flex;
+    align-items: center;
+    height: 60px;
+
+}
+
+.blue-button {
+    border-color:#F9FAF8; 
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
 
 
