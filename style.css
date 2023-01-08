@@ -114,7 +114,7 @@ button{
 
 .under-header{
     text-align: center;
-    height: 60vh;
+    height: 55vh;
 }
 
 .under-header > h2{
@@ -147,4 +147,35 @@ button{
 .pc > p {
     font-size: 18px;
 }
+
+.quote-section{
+    background-color: #E5E7EB;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container{
+    width: 52vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-container > p{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+
+.quote-container > div{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
 
